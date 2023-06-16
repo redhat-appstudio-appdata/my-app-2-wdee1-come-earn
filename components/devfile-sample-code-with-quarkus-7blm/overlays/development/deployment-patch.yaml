@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-code-with-quarkus-7blm
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/fduthill-tenant/my-app-2/devfile-sample-code-with-quarkus-7blm@sha256:40f4447b414196b69920415e125dd0ae9bf475ffe0021e2825244a90b9c2a196
+        name: my-java-quarkus
+        resources: {}
+status: {}
