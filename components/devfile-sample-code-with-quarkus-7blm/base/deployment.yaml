@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: my-app-2
   name: devfile-sample-code-with-quarkus-7blm
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
